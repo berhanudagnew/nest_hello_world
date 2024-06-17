@@ -1,73 +1,131 @@
-<p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
-</p>
+# Cryptocurrency Trading Bot
 
-[circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
-[circleci-url]: https://circleci.com/gh/nestjs/nest
+![Bot Icon](https://images.pexels.com/photos/6153354/pexels-photo-6153354.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2)
 
-  <p align="center">A progressive <a href="http://nodejs.org" target="_blank">Node.js</a> framework for building efficient and scalable server-side applications.</p>
-    <p align="center">
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/v/@nestjs/core.svg" alt="NPM Version" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/l/@nestjs/core.svg" alt="Package License" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/dm/@nestjs/common.svg" alt="NPM Downloads" /></a>
-<a href="https://circleci.com/gh/nestjs/nest" target="_blank"><img src="https://img.shields.io/circleci/build/github/nestjs/nest/master" alt="CircleCI" /></a>
-<a href="https://coveralls.io/github/nestjs/nest?branch=master" target="_blank"><img src="https://coveralls.io/repos/github/nestjs/nest/badge.svg?branch=master#9" alt="Coverage" /></a>
-<a href="https://discord.gg/G7Qnnhy" target="_blank"><img src="https://img.shields.io/badge/discord-online-brightgreen.svg" alt="Discord"/></a>
-<a href="https://opencollective.com/nest#backer" target="_blank"><img src="https://opencollective.com/nest/backers/badge.svg" alt="Backers on Open Collective" /></a>
-<a href="https://opencollective.com/nest#sponsor" target="_blank"><img src="https://opencollective.com/nest/sponsors/badge.svg" alt="Sponsors on Open Collective" /></a>
-  <a href="https://paypal.me/kamilmysliwiec" target="_blank"><img src="https://img.shields.io/badge/Donate-PayPal-ff3f59.svg"/></a>
-    <a href="https://opencollective.com/nest#sponsor"  target="_blank"><img src="https://img.shields.io/badge/Support%20us-Open%20Collective-41B883.svg" alt="Support us"></a>
-  <a href="https://twitter.com/nestframework" target="_blank"><img src="https://img.shields.io/twitter/follow/nestframework.svg?style=social&label=Follow"></a>
-</p>
-  <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
-  [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
+Welcome to the Cryptocurrency Trading Bot repository! This project leverages NestJS and Flutter to create a powerful trading bot for Binance. The bot is designed to execute trading strategies, manage risk, and help you automate your cryptocurrency trading.
 
-## Description
+## Table of Contents
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Configuration](#configuration)
+- [Contributing](#contributing)
+- [License](#license)
+- [Acknowledgements](#acknowledgements)
+
+## Features
+
+![Features Icon](https://example.com/features-icon.png)
+
+- **Automated Trading**: Execute trades automatically based on predefined strategies.
+- **Risk Management**: Incorporate risk management techniques to minimize losses.
+- **Cross-Platform**: Developed using NestJS for backend and Flutter for mobile interface.
+- **Real-Time Data**: Fetch real-time data from Binance API.
+- **User-Friendly Interface**: Intuitive UI for managing and monitoring trades.
 
 ## Installation
 
-```bash
-$ npm install
-```
+![Installation Icon](https://example.com/installation-icon.png)
 
-## Running the app
+### Prerequisites
 
-```bash
-# development
-$ npm run start
+- Node.js
+- Flutter
+- Binance API Key
 
-# watch mode
-$ npm run start:dev
+### Backend (NestJS)
 
-# production mode
-$ npm run start:prod
-```
+1. Clone the repository:
 
-## Test
+   ```sh
+   git clone https://github.com/yourusername/crypto-trading-bot.git
+   cd crypto-trading-bot/backend
+   ```
 
-```bash
-# unit tests
-$ npm run test
+2. Install dependencies:
 
-# e2e tests
-$ npm run test:e2e
+   ```sh
+   npm install
+   ```
 
-# test coverage
-$ npm run test:cov
-```
+3. Set up environment variables:
 
-## Support
+   ```sh
+   cp .env.example .env
+   # Add your Binance API key and other configurations to the .env file
+   ```
 
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
+4. Run the backend server:
+   ```sh
+   npm run start
+   ```
 
-## Stay in touch
+### Frontend (Flutter)
 
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
+1. Navigate to the frontend directory:
+
+   ```sh
+   cd ../frontend
+   ```
+
+2. Install dependencies:
+
+   ```sh
+   flutter pub get
+   ```
+
+3. Run the Flutter app:
+   ```sh
+   flutter run
+   ```
+
+## Usage
+
+![Usage Icon](https://example.com/usage-icon.png)
+
+1. Start the backend server.
+2. Launch the Flutter application.
+3. Navigate through the UI to configure your trading strategies.
+4. Monitor your trades and adjust strategies as needed.
+
+## Configuration
+
+![Configuration Icon](https://example.com/configuration-icon.png)
+
+- **Backend Configuration**: All backend configurations, including API keys and server settings, are managed through the `.env` file.
+- **Frontend Configuration**: UI settings and preferences can be modified in the Flutter application settings.
+
+## Contributing
+
+![Contributing Icon](https://example.com/contributing-icon.png)
+
+We welcome contributions from the community! Please follow these steps to contribute:
+
+1. Fork the repository.
+2. Create a new branch: `git checkout -b feature/YourFeature`
+3. Commit your changes: `git commit -m 'Add some feature'`
+4. Push to the branch: `git push origin feature/YourFeature`
+5. Submit a pull request.
 
 ## License
 
-Nest is [MIT licensed](LICENSE).
+![License Icon](https://example.com/license-icon.png)
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Acknowledgements
+
+![Acknowledgements Icon](https://example.com/acknowledgements-icon.png)
+
+- [NestJS](https://nestjs.com/) - A progressive Node.js framework for building efficient and scalable server-side applications.
+- [Flutter](https://flutter.dev/) - A UI toolkit for crafting natively compiled applications for mobile, web, and desktop from a single codebase.
+- [Binance API](https://binance-docs.github.io/apidocs/) - API for Binance, a global cryptocurrency exchange.
+
+![Footer Image](https://example.com/footer-image.png)
+
+Thank you for checking out the Cryptocurrency Trading Bot! We hope this project helps you in your trading journey. Happy trading!
+
+---
+
+**Note**: Replace the placeholder URLs (e.g., `https://example.com/...`) with actual URLs to icons and images you want to use in your README file.
