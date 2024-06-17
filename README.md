@@ -1,6 +1,6 @@
 # Cryptocurrency Trading Bot
 
-![Bot Icon](https://images.pexels.com/photos/6153354/pexels-photo-6153354.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2)
+![Bot Icon](<https://cdn.prod.website-files.com/614c99cf4f23700c8aa3752a/61a109a45870665a76422a12_The%2015%20Best%20Crypto%20Trading%20Bots%20(Reviewed)%20(1).jpg>)
 
 Welcome to the Cryptocurrency Trading Bot repository! This project leverages NestJS and Flutter to create a powerful trading bot for Binance. The bot is designed to execute trading strategies, manage risk, and help you automate your cryptocurrency trading.
 
